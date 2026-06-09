@@ -24,7 +24,29 @@
 
 예시 프롬프트:
 ```text
-이 논문에서 사용된 세포 유형, 지지체 정보(제조방법, 성분, 성분배합비), bioactiviy, cytotoxicity, biodegradability 정보
+다음 PDF 논문을 분석하세요.
+
+1. 먼저 이 논문이 **골분화(osteogenic differentiation)** 를 다루는 **원저논문**인지 확인하세요.
+   리뷰논문이거나 관련이 없으면 분석하지 말고 그 이유만 답하세요.
+2. 조건에 맞는 논문이라면 **PDF 내용에서만**, 실제 실험에 사용된 정보만 추출하세요.
+   각 항목에는 관련 원문 문장도 함께 제시하세요.
+
+### 추출 항목
+
+1. Target 질환 정보
+2. 실험에 사용된 세포
+   * human 유래 세포인 경우에만 다음 단계 분석
+   * human 유래가 아니면 세포 유래만 제시하고 분석 중단
+3. human 유래 세포 유형
+4. 지지체(scaffold) 정보
+   * 제조 방법 , 지지체 성분
+5. Bioactive molecule 정보
+6. Compatibility, bioavailability, biodegradability, cytotoxicity, survival 관련 내용
+7. 평가 방법 및 결과
+  아래 실험법명을 우선 사용하고, 목록에 없는 경우에만 새로운 시험법명을 제시하세요.
+   각 실험 결과는 간단히 정리하세요.
+   MTT Assay, CCK-8 Assay, LIVE/DEAD staining, Alamar Blue assay, IHC, Immunofluorescence, FTIR 등
+   PDF에 없는 정보는 추측하지 말고 “논문 내 명시 없음”이라고 표시하세요.
 ```
 
 ## 라이선스
